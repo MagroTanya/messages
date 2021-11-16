@@ -1,0 +1,22 @@
+.messagesList {
+  padding: 20px;
+  background-color: #aeaeae;
+
+  .messageItem {
+    display: flex;
+
+    .message {
+      width: auto;
+      padding: 10px;
+      max-width: 600px;
+      min-width: 200px;
+      margin: 0 20px 10px 0;
+      overflow-wrap: break-word;
+    }
+
+    .messageAuthor {
+      align-self: flex-end;
+      margin-bottom: 10px;
+    }
+  }
+}
