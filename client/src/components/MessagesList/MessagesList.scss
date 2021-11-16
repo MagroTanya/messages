@@ -1,6 +1,7 @@
 .messagesList {
   padding: 20px;
   background-color: #aeaeae;
+  overflow: auto;
 
   .messageItem {
     display: flex;
